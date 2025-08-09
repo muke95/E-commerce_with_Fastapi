@@ -39,19 +39,25 @@ A fully functional **FastAPI** backend for an e-commerce platform, featuring:
 .
 ├── main.py # Entry point of FastAPI app
 ├── routers/ # API route definitions
-│ ├── user_routes.py
-│ ├── product_routes.py
-│ ├── category_routes.py
-│ └── cart_routes.py
-├── services/ # Business logic
-│ ├── user_service.py
-│ ├── product_service.py
-│ ├── category_service.py
-│ └── cart_service.py
+│ ├── users.py
+│ ├── products.py
+│ ├── categories.py
+│ └── carts.py
+  └── auth.py
+
+├── service/ # Business logic
+│ ├── users.py
+│ ├── products.py
+│ ├── categories.py
+│ └── carts.py
 ├── models/ # SQLAlchemy models
 ├── schemas/ # Pydantic schemas
+│ ├── usersService.py
+│ ├── productsService.py
+│ ├── categoriesService.py
+│ └── cart.py
+│ └── auth.py
 ├── database.py # DB connection setup
-├── auth/ # Authentication & JWT helpers
 ├── requirements.txt # Dependencies
 └── README.md # Project documentation
 
