@@ -68,7 +68,7 @@ A fully functional **FastAPI** backend for an e-commerce platform, featuring:
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/fastapi-ecommerce.git
+git clone  https://github.com/muke95/E-commerce_with_Fastapi.git
 cd fastapi-ecommerce
 
 2️⃣ Create Virtual Environment
